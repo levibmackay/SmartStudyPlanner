@@ -14,7 +14,7 @@ The **Smart Study Planner** is a desktop-based C# application designed to help c
 ## 2. Recommended Application Architecture
 A **Layered Architecture** is recommended to keep the code organized and maintainable.
 
-*   **Presentation Layer (UI):** Handles user interaction (WPF or WinForms).
+*   **Presentation Layer (UI):** Handles user interaction (WPF for Windows or **Console** for Linux/Mac).
 *   **Business Logic Layer (BLL):** Contains the "brains" of the app (scheduling algorithms, grade calculations).
 *   **Data Access Layer (DAL):** Manages saving and loading data (Database interactions).
 *   **Models:** Shared data structures across all layers.
